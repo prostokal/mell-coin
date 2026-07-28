@@ -1,3 +1,5 @@
+import './sass/style.scss';
+
 // Tokenomica
 document.querySelectorAll('.tokenomika__item-percent').forEach((item, i) => {
     document.querySelectorAll('.tokenomika__item-slider span')[i].style.width = item.innerHTML;
@@ -18,3 +20,4 @@ function close(p) {
 }
 close('.menu__close');
 close('.menu__link a');
+
